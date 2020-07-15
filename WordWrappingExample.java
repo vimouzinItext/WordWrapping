@@ -28,7 +28,7 @@ public class WordWrappingExample {
             Document doc = new Document(pdfDoc);
             //add thaiText to a paragraph
             Paragraph paragraph = new Paragraph(this.thaiText);
-            //set with of paragraph (optional)
+            //set width of paragraph (optional)
             paragraph.setWidth(50);
             //set background color of paragraph (optional)
             paragraph.setBackgroundColor(ColorConstants.LIGHT_GRAY);
